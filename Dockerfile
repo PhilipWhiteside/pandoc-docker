@@ -17,4 +17,6 @@ RUN apt-get install -y texlive-latex-recommended-doc
 RUN apt-get install -y texlive-latex-extra
 RUN apt-get install -y texlive-fonts-extra
 
+RUN apt-get clean
+
 WORKDIR /data
